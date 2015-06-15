@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Stepwaze';
+  src: url('../assets/fonts/Stepwaze.ttf') format('truetype');
+
+}
+html {
+  background-image: url("../assets/imgs/small_steps.png");
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+/*h1 {
+  background: #6B6B6B;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0 0 50px 0;
+  font-weight: normal;
+
+  text-shadow: 
+  8px 8px 0 #ffd217, 
+  16px 16px 0 #5ac7ff, 
+  24px 24px 0 #ffd217, 
+  32px 32px 0 #5ac7ff;
+  font-size: 5em;
+}*/
+
+.heading {
+  font-family: 'Stepwaze', sans-serif;
+  font-weight: normal;
+  padding: 0.3rem 0.5rem;
+  font-size: 10vw;
+  line-height: 2.5rem;
+  margin: 0 0 2.5% 0;
+}
+
+.sub-heading {
+  color: #6B6B6B;
+  font-size: 1.5vw;
+}
+
+
+.clover {
+  height: 2.9rem;
+  width: 2.9rem;
+  margin: 0.1rem 1.1rem;
+}
+#top * {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3rem;
+}
+#bop {
+  margin-top: 1rem;
+  font-size: 0.85vw;
+}
+#fop {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  padding-bottom: 1rem;
+}
+#fop img {
+  height: 2rem;
+  margin: 0 0.6rem;
+}
+#fop img#twitter {
+  height: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.dot:before {
+  content: " / ";
+  font-size: 0.8rem;
+  color: #6B6B6B;
+}
+@media (max-width: 321px) {
+  #fop {
+    position: static;
+    margin-top: 5rem;
+  }
+  #fop img {
+    height: 3rem;
+    margin: 0 1rem;
+  }
+  #fop img#twitter {
+    height: 2.5rem;
+    margin-bottom: 0.25rem;
+  }
+}
+@media (min-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 320px) and (orientation: landscape) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (min-width: 589px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 733px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 870px) {
+  html {
+    font-size: 30px;
+  }
+}
